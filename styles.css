@@ -306,7 +306,7 @@ footer {
 
 .taxeaseFooter {
     width: 23rem;
-    margin-right: 6rem;
+    margin-right: auto;
 }
 
 .logoFooter {
@@ -323,7 +323,7 @@ footer {
 }
 
 .seccion {
-    margin-right: 3rem;
+    margin-right: auto;
 }
 
 footer hr {
