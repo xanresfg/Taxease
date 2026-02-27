@@ -10,6 +10,13 @@ button {
     margin: .7rem;
 }
 
+svg {
+    fill: #007A55;
+    stroke: #007A55;
+    height: 3rem;
+    width: auto;
+}
+
 /* Menu */
 menu {
     display: flex;
@@ -155,13 +162,15 @@ p.mas {
 
 .icons {
     display: flex;
+    justify-content: center;
     margin: 5rem 0;
 }
 
 .icons hr {
-    width: 30rem;
+    width: 10rem;
     border: solid .15rem #CDCDCD;
     border-radius: 1rem;
+    margin: 1rem;
 }
 
 .pasos {
