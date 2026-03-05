@@ -295,8 +295,22 @@ p#pPricing {
     margin: .5rem 0;
 }
 
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 .plan li {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
     margin: .8rem;
+}
+
+.check {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .plan span {
