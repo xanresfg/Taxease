@@ -144,6 +144,9 @@ p.mas {
 
 /* How it works */
 .howitworks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     padding: 6rem 15rem;
     border: solid .1rem #C7C7C7;
@@ -162,15 +165,16 @@ p.mas {
 
 .icons {
     display: flex;
-    justify-content: center;
-    margin: 5rem 0;
+    align-items: center;
+    width: 61rem;
+    gap: 1rem;
+    margin: 4rem 0;
 }
 
 .icons hr {
-    width: 10rem;
+    width: 39%;
     border: solid .15rem #CDCDCD;
     border-radius: 1rem;
-    margin: 1rem;
 }
 
 .pasos {
