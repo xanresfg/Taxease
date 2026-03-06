@@ -581,4 +581,17 @@ footer hr {
         height: 3.5rem;
         font-size: 1.1rem;
     }
+
+    /* Features */
+    .features {
+        padding: 0 1rem;
+    }
+
+    .features h1 {
+        font-size: 1.8rem;
+    }
+
+    .features p {
+        font-size: 1.1rem;
+    }
 }
