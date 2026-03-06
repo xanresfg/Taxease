@@ -633,4 +633,10 @@ footer hr {
     p.comentario {
         font-size: 1.6rem;
     }
+
+    /* Pricing */
+    .planes {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
