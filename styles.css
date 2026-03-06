@@ -31,7 +31,6 @@ menu {
     z-index: 1000;
 }
 
-
 .logo {
     display: flex;
     margin-right: auto;
@@ -118,6 +117,8 @@ menu button {
 
 .tarjetas {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 5rem;
     gap: 2rem;
     text-align: start;
@@ -126,6 +127,7 @@ menu button {
 .tarjeta {
     border: solid .1rem #868686;
     border-radius: 1rem;
+    width: 22rem;
     padding: 2.3rem;
     box-shadow: 0 0 .5rem rgb(141, 141, 141);
 }
@@ -277,7 +279,6 @@ p.cargo {
     color: #00D492;
 }
 
-
 /* Pricing */
 .pricing {
     text-align: center;
@@ -384,7 +385,6 @@ footer {
     font-size: .9rem;
 }
 
-
 .taxeaseFooter {
     width: 23rem;
     margin-right: auto;
@@ -419,4 +419,22 @@ footer hr {
 
 .derechos p {
     margin: 0;
+}
+
+/* Media queries */
+/* Móvil */
+@media (max-width: 768px) {
+
+    /* Features */
+    .features {
+        padding: 0 1rem;
+    }
+
+    .features h1 {
+        font-size: 1.5rem;
+    }
+
+    .features p {
+        font-size: 1rem;
+    }
 }
