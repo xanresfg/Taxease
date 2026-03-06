@@ -390,7 +390,7 @@ footer {
 
 
 .taxeaseFooter {
-    width: 23rem;
+    max-width: 23rem;
     margin-right: auto;
 }
 
@@ -488,5 +488,21 @@ footer hr {
     .plan {
         width: 100%;
         max-width: 20rem;
+    }
+
+    /* Footer */
+    footer {
+        padding: 3rem 1rem;
+    }
+
+    .secciones {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .derechos {
+        flex-direction: column;
+        gap: 1rem;
     }
 }
