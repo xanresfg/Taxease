@@ -454,6 +454,22 @@ footer hr {
         display: none;
     }
 
+    /* Hero */
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .hero button {
+        width: 9rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
     /* Features */
     .features {
         padding: 0 1rem;
