@@ -203,6 +203,7 @@ p.mas {
 
 .pasos {
     display: flex;
+    flex-wrap: wrap;
     font-size: 1.1rem;
     justify-content: center;
     gap: 4rem;
@@ -439,5 +440,18 @@ footer hr {
 
     .features p {
         font-size: 1rem;
+    }
+
+    /* how it works */
+    .howitworks {
+        padding: 6rem 1rem;
+    }
+
+    .howitworks h1 {
+        font-size: 1.5rem;
+    }
+
+    .icons {
+        width: 100%;
     }
 }
