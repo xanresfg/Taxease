@@ -624,4 +624,13 @@ footer hr {
         gap: 1rem;
         font-size: 1.3rem;
     }
+
+    /* Testimonial */
+    .testimonial {
+        padding: 6rem 1rem;
+    }
+
+    p.comentario {
+        font-size: 1.6rem;
+    }
 }
