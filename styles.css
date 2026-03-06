@@ -130,6 +130,15 @@ menu button {
     box-shadow: 0 0 .5rem rgb(141, 141, 141);
 }
 
+.iconbox {
+    display: flex;
+    align-items: center;
+    background-color: #ECFDF5;
+    border-radius: .5rem;
+    padding: .2rem;
+    width: fit-content;
+}
+
 .tarjeta p {
     font-size: 1.2rem;
 }
@@ -138,8 +147,20 @@ p.tituloFuncion {
     color: black;
 }
 
+.saberMas {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
 p.mas {
     color: #007A55;
+}
+
+.saberMas svg {
+    height: 1.5rem;
+    width: auto;
+    margin-top: .3rem;
 }
 
 /* How it works */
