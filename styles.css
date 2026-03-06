@@ -565,4 +565,20 @@ footer hr {
         padding: 0 1rem;
         justify-content: space-between;
     }
+
+    /* Hero */
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+        padding: 0 1rem;
+    }
+
+    .hero button {
+        width: 9.5rem;
+        height: 3.5rem;
+        font-size: 1.1rem;
+    }
 }
