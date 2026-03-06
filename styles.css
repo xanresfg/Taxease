@@ -429,6 +429,11 @@ footer hr {
 /* Móvil */
 @media (max-width: 600px) {
 
+    /* General */
+    * {
+        box-sizing: border-box;
+    }
+
     /* Menu */
     menu {
         padding: 0 1rem;
