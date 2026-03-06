@@ -639,4 +639,13 @@ footer hr {
         flex-direction: column;
         gap: 2rem;
     }
+
+    /* Footer */
+    footer {
+        padding: 3rem 1rem;
+    }
+
+    .secciones {
+        gap: 2rem;
+    }
 }
