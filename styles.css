@@ -474,4 +474,19 @@ footer hr {
     p.comentario {
         font-size: 1.3rem;
     }
+
+    /* Pricing */
+    .pricing {
+        padding: 3rem 0.5rem 4rem;
+    }
+
+    .planes {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 20rem;
+    }
 }
