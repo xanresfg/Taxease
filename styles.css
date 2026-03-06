@@ -118,6 +118,8 @@ menu button {
 
 .tarjetas {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 5rem;
     gap: 2rem;
     text-align: start;
@@ -128,6 +130,7 @@ menu button {
     border-radius: 1rem;
     padding: 2.3rem;
     box-shadow: 0 0 .5rem rgb(141, 141, 141);
+    width: 22rem;
 }
 
 .iconbox {
@@ -419,4 +422,22 @@ footer hr {
 
 .derechos p {
     margin: 0;
+}
+
+/* Media queries */
+/* Móvil */
+@media (max-width: 600px) {
+
+    /* Features */
+    .features {
+        padding: 0 1rem;
+    }
+
+    .features h1 {
+        font-size: 1.5rem;
+    }
+
+    .features p {
+        font-size: 1rem;
+    }
 }
