@@ -612,4 +612,16 @@ footer hr {
         flex-direction: column;
         gap: 2rem;
     }
+
+    /* Brands */
+    .brands {
+        padding: 4rem 1rem 2rem;
+    }
+
+    .empresas {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 1.3rem;
+    }
 }
