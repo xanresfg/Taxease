@@ -556,3 +556,13 @@ footer hr {
         gap: 1rem;
     }
 }
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 1390px) {
+
+    /* Menu */
+    menu {
+        padding: 0 1rem;
+        justify-content: space-between;
+    }
+}
