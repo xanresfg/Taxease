@@ -594,4 +594,22 @@ footer hr {
     .features p {
         font-size: 1.1rem;
     }
+
+    /* how it works */
+    .howitworks {
+        padding: 6rem;
+    }
+
+    .howitworks h1 {
+        font-size: 1.8rem;
+    }
+
+    .icons {
+        width: 100%;
+    }
+
+    .pasos {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
