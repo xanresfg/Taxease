@@ -254,8 +254,8 @@ p.stats {
     color: white;
     border-radius: 1rem;
     padding: 2rem;
-    width: 51.5rem;
-    height: 27rem;
+    max-width: 51.5rem;
+    min-height: 27rem;
 }
 
 p.comentario {
@@ -464,5 +464,14 @@ footer hr {
         flex-direction: column;
         font-size: 1.3rem;
         gap: 1rem;
+    }
+
+    /* Testimonial */
+    .testimonial {
+        padding: 6rem 1rem;
+    }
+
+    p.comentario {
+        font-size: 1.3rem;
     }
 }
