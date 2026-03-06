@@ -454,4 +454,15 @@ footer hr {
     .icons {
         width: 100%;
     }
+
+    /* Brands */
+    .brands {
+        padding: 4rem 1rem 2rem;
+    }
+
+    .empresas {
+        flex-direction: column;
+        font-size: 1.3rem;
+        gap: 1rem;
+    }
 }
