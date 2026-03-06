@@ -429,6 +429,31 @@ footer hr {
 /* Móvil */
 @media (max-width: 600px) {
 
+    /* Menu */
+    menu {
+        padding: 0 1rem;
+        justify-content: space-between;
+    }
+
+    .logo img {
+        height: 2.5rem;
+    }
+
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    menu button {
+        width: 7rem;
+        height: 2.5rem;
+        font-size: 0.85rem;
+        padding: 0.5rem;
+    }
+
+    menu .empezar {
+        display: none;
+    }
+
     /* Features */
     .features {
         padding: 0 1rem;
